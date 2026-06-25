@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — Paws & Threads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+<header>
+  <div class="container">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt="Paws & Threads"><span>Paws & Threads</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="about.html">Our Mission</a>
+      <a href="size-guide.html">Size Guide</a>
+      <a href="faq.html" class="active">FAQ</a>
+    </nav>
+    <button class="mobile-menu-btn" onclick="document.querySelector('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="faq-section">
+  <div class="container">
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          Where does my donation go?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">10% of every purchase is donated to animal welfare charities. We rotate our charity partners quarterly and publish a full donation report every three months. Current partners include Paws Rescue League, Happy Tails Foundation, and Wild Paws Sanctuary.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          What materials are your hoodies made from?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Our premium hoodies are made from 100% organic cotton with a brushed fleece interior for extra warmth and softness. We use GOTS-certified organic cotton and low-impact dyes. All manufacturing is ethically certified.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          How do I find my size?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Check our <a href="size-guide.html">Size Guide</a> for detailed measurements. Our hoodies have a relaxed fit — if you're between sizes or prefer a snug fit, we recommend sizing down. If you need personalized help, email us!</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          What is your shipping policy?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">We offer free shipping on all orders over $100. Standard shipping takes 5-7 business days. Express shipping (2-3 business days) is available for an additional $12. We ship to all 50 US states and Canada.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          What is your return policy?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">We offer free returns within 30 days of delivery. Items must be unworn with tags attached. Start a return by emailing us at hello@pawsandthreads.com — we'll send you a prepaid return label.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          Do you ship internationally?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">We currently ship to the United States and Canada. International shipping to select countries is coming soon. Sign up for our newsletter to be notified when we expand.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          How do I care for my hoodie?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach. Iron on low heat if needed. Our fabric is pre-shrunk for minimal shrinkage.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div><h4>Paws & Threads</h4><p>Stylish apparel for pet lovers. Every purchase supports animal welfare charities.</p></div>
+    <div><h4>Shop</h4><ul class="footer-links"><li><a href="products.html">All Products</a></li><li><a href="size-guide.html">Size Guide</a></li></ul></div>
+    <div><h4>About</h4><ul class="footer-links"><li><a href="about.html">Our Mission</a></li><li><a href="faq.html">FAQ</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="footer-links"><li><a href="mailto:hello@pawsandthreads.com">hello@pawsandthreads.com</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><div class="container"><p>&copy; 2026 Paws & Threads. All rights reserved.</p></div></div>
+</footer>
+</body>
+</html>

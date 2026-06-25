@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Type Lockup Tee — Paws & Threads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+<header><div class="container">
+<a href="index.html" class="logo"><img src="images/logo.png" alt="Paws & Threads"><span>Paws & Threads</span></a>
+<nav><a href="index.html">Home</a><a href="products.html">Shop</a><a href="about.html">Our Mission</a><a href="size-guide.html">Size Guide</a><a href="faq.html">FAQ</a></nav>
+<button class="mobile-menu-btn" onclick="document.querySelector('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+</div></header>
+<section class="product-detail"><div class="container"><div class="product-detail-layout">
+<div class="product-detail-image"><img src="images/tshirt-type-lockup.png" alt="Type Lockup T-Shirt"></div>
+<div class="product-detail-info">
+<p class="product-type">Crewneck T-Shirt</p><h1>Type Lockup</h1><p class="price">$42</p>
+<div class="product-description"><p>Bold serif typography reading "PAWS & THREADS" with a subtle paw icon integrated into the ampersand. Clean, editorial, brand-forward. This doubles as a brand statement piece — wearing the name means supporting the cause. Screen-printed on a warm white, 100% organic cotton crewneck tee.</p><p style="margin-top:1rem"><strong>10% of every purchase</strong> supports animal welfare charities.</p></div>
+<div class="size-selector"><label>Select Size</label>
+<div class="size-options">
+<div class="size-option" onclick="document.querySelectorAll('.size-option').forEach(s=>s.classList.remove('selected'));this.classList.add('selected')">XS</div>
+<div class="size-option" onclick="document.querySelectorAll('.size-option').forEach(s=>s.classList.remove('selected'));this.classList.add('selected')">S</div>
+<div class="size-option selected" onclick="document.querySelectorAll('.size-option').forEach(s=>s.classList.remove('selected'));this.classList.add('selected')">M</div>
+<div class="size-option" onclick="document.querySelectorAll('.size-option').forEach(s=>s.classList.remove('selected'));this.classList.add('selected')">L</div>
+<div class="size-option" onclick="document.querySelectorAll('.size-option').forEach(s=>s.classList.remove('selected'));this.classList.add('selected')">XL</div>
+<div class="size-option" onclick="document.querySelectorAll('.size-option').forEach(s=>s.classList.remove('selected'));this.classList.add('selected')">XXL</div>
+</div></div>
+<a href="https://buy.stripe.com/9B600l758dab6JX9TV33W03" class="btn btn-primary" style="font-size:1.1rem;padding:1rem 2rem">Buy Now — $42</a>
+<div class="product-meta"><p>✦ 100% Organic Cotton</p><p>✦ Pre-shrunk fabric</p><p>✦ Ethically manufactured</p><p>✦ Free shipping on orders over $100</p></div>
+</div></div></div></section>
+<footer><div class="container">
+<div><h4>Paws & Threads</h4><p>Stylish apparel for pet lovers. Every purchase supports animal welfare charities.</p></div>
+<div><h4>Shop</h4><ul class="footer-links"><li><a href="products.html">All Products</a></li><li><a href="size-guide.html">Size Guide</a></li></ul></div>
+<div><h4>About</h4><ul class="footer-links"><li><a href="about.html">Our Mission</a></li><li><a href="faq.html">FAQ</a></li></ul></div>
+<div><h4>Contact</h4><ul class="footer-links"><li><a href="mailto:hello@pawsandthreads.com">hello@pawsandthreads.com</a></li></ul></div>
+</div><div class="footer-bottom"><div class="container"><p>&copy; 2026 Paws & Threads. All rights reserved.</p></div></div></footer>
+</body>
+</html>

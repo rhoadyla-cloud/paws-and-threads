@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop — Paws & Threads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+<header>
+  <div class="container">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt="Paws & Threads"><span>Paws & Threads</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Shop</a>
+      <a href="about.html">Our Mission</a>
+      <a href="size-guide.html">Size Guide</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <button class="mobile-menu-btn" onclick="document.querySelector('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="products" style="padding-top:calc(var(--header-height) + var(--space-xl))">
+  <div class="container">
+    <div class="section-title">
+      <h2>All Products</h2>
+      <p>Premium apparel designed for pet lovers. 10% of every purchase supports animal welfare.</p>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-card-image"><img src="images/hoodie-whisker.png" alt="Whisker Hoodie"></div>
+        <div class="product-card-body">
+          <p class="product-type">Premium Pullover Hoodie</p>
+          <h3>Whisker</h3>
+          <p class="price">$68</p>
+          <a href="product-whisker.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-card-image"><img src="images/hoodie-paw.png" alt="Paw Hoodie"></div>
+        <div class="product-card-body">
+          <p class="product-type">Premium Zip-Up Hoodie</p>
+          <h3>Paw</h3>
+          <p class="price">$68</p>
+          <a href="product-paw.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-card-image"><img src="images/hoodie-best-friend.png" alt="Best Friend Hoodie"></div>
+        <div class="product-card-body">
+          <p class="product-type">Premium Pullover Hoodie</p>
+          <h3>Best Friend</h3>
+          <p class="price">$68</p>
+          <a href="product-best-friend.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-card-image"><img src="images/tshirt-type-lockup.png" alt="Type Lockup T-Shirt"></div>
+        <div class="product-card-body">
+          <p class="product-type">Crewneck T-Shirt</p>
+          <h3>Type Lockup</h3>
+          <p class="price">$42</p>
+          <a href="product-type-lockup.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div><h4>Paws & Threads</h4><p>Stylish apparel for pet lovers. Every purchase supports animal welfare charities.</p></div>
+    <div><h4>Shop</h4><ul class="footer-links"><li><a href="products.html">All Products</a></li><li><a href="size-guide.html">Size Guide</a></li></ul></div>
+    <div><h4>About</h4><ul class="footer-links"><li><a href="about.html">Our Mission</a></li><li><a href="faq.html">FAQ</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="footer-links"><li><a href="mailto:hello@pawsandthreads.com">hello@pawsandthreads.com</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><div class="container"><p>&copy; 2026 Paws & Threads. All rights reserved.</p></div></div>
+</footer>
+</body>
+</html>
